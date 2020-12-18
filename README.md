@@ -20,7 +20,7 @@ In this example, we will create one agent for each agent class. Starting agents 
 java -cp lib\jade.jar;classes jade.Boot -agents "mainAgent:MainAgent;randomAgent:RandomAgent;spiteful:Spiteful_agent;tftagent:TFT_agent;pavlov:Pavlov_agent"
 ```
 
-You can start several agents sharing the same class (agents are started with argument (name:class) separated by a semicolon `;`) . Each one will have its name and will operate independently from the others. GUI will be opened afterwards and you can start the game.
+You can start several agents sharing the same class (agents are started with argument (name:class) separated by a semicolon `;`) . Each one will have its name and will operate independently from the others. Together  with  the  players  (agents),  we  also  consider  the  existence  of  a  main  agent (MainAgent)  that behaves  as  a  hub,  receiving  the  adequate  actions  selected  by  each  agent,  and  providing them  the  outcomes  along  the  different  rounds  of  the  game and therefore he should be always created. GUI will be opened afterwards and you can start the game.
 
 ## Agents
 
