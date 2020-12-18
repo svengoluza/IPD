@@ -24,8 +24,8 @@ You can start several agents sharing the same class (agents are started with arg
 
 ## Agents
 
-Several different agents are implemented : 
+Several agents with different strategies are implemented : 
 - Random agent : picks move randomly
 - TFT agent : cooperates in the first round, and then in the next rounds it does what the opponent did in the previous round all the time
 - Spiteful agent : cooperates until the opponent defects, then defects all the time 
-- Pavlov agent : cooperates at the first iteration, and whenever both players do the same atthe previous round, but it defects when both players behave different at the previousround.  Pavlov, also known as win-stay, lose-switch, resembles a common humanbehavior that keeps the present strategy while winning, or change to another onewhen losing
+- Pavlov agent : cooperates at the first iteration, and whenever both players do the same at the previous round, but it defects when both players behave different at the previous round. Pavlov, also known as win-stay, lose-switch, resembles a common human behavior that keeps the present strategy while winning, or change to another one when losing
